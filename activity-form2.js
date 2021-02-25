@@ -1,4 +1,4 @@
-jQuery(function () {
+jQuery(document).ready(function() {
   jQuery("#radio-000000fb0").on("click", function(){
 	alert("Testing jQuery");
 	jQuery("#00000101_0").prop( "checked", false );
